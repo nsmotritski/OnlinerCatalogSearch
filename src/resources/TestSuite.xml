@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <suite name="Pen tests">
+        <test name="Check that it is possible to login to the email">
+            <parameter name="domain" value="itransition"/>
+            <parameter name="login" value="n.smotritsky"/>
+            <parameter name="password" value="150907"/>
+            <parameter name="user" value="Smotritsky, Nikolay"/>
+            <classes>
+                <class name="OnlinerCatalogSearch" />
+            </classes>
+        </test>
+    </suite>
+</test>
